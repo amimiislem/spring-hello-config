@@ -1,0 +1,11 @@
+zuul:  
+  prefix: /api
+  ignored-services:
+  - "*"
+  routes:
+    hello: /hello/**
+    annonceservice: /annonceservice/**
+    helloostatic:
+      path: /v1/no/**
+      service-id: hellostatic
+      url: http://127.0.0.1:8000/v1/no/   
