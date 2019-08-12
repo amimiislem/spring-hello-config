@@ -2,6 +2,7 @@ zuul:
   prefix: /api
   ignored-services:
   - "*"
+  sensitiveHeaders: Cookie,Set-Cookie
   routes:
     hello: /hello/**
     annonceservice: /annonceservice/**
