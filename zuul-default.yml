@@ -5,6 +5,7 @@ zuul:
   routes:
     hello: /hello/**
     annonceservice: /annonceservice/**
+    oauth: /oauth/**
     helloostatic:
       path: /v1/no/**
       service-id: hellostatic
